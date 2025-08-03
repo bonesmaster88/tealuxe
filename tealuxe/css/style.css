@@ -250,8 +250,7 @@ body.menu-open {
   }
 }
 .header__logo img {
-  -o-object-fit: contain;
-     object-fit: contain;
+   object-fit: contain;
 }
 .header__menu {
   margin-inline-start: 3.125rem;
@@ -929,16 +928,8 @@ body.menu-open {
     font-size: 1rem;
   }
 }
-.subscribe__top-area input::-moz-placeholder {
-  color: #b8b58b;
-  transition: 0.2s;
-}
 .subscribe__top-area input::placeholder {
   color: #b8b58b;
-  transition: 0.2s;
-}
-.subscribe__top-area input:focus::-moz-placeholder {
-  opacity: 0;
   transition: 0.2s;
 }
 .subscribe__top-area input:focus::placeholder {
