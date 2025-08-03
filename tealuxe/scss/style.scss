@@ -584,7 +584,7 @@ body {
       }
 
       a {
-         transform: color 0.2s;
+         transition: color 0.2s;
       }
 
       @media (any-hover: hover), (pointer: fine) {
@@ -1132,3 +1132,4 @@ body {
       }
    }
 }
+
